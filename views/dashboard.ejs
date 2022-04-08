@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../public/css/dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand">Navbar</a>
+              <form class="">
+                <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                
+                <div class="d-flex">
+                    <div class="userName me-2">Penuel Essoh</div>
+                    <div class="userImage btn-outline-info"></div>
+                    <button class="btn btn-logout btn-outline-danger" type="submit"><a href="">Deconnexion</a></button>
+                </div>
+                
+              </form>
+            </div>
+        </nav>
+    </div>
+
+    <section>
+        <div class="container containQuiz">
+            <div class="menuScore">
+                <span class="reponseNum">0</span>/<span class="scoreNum">0</span>
+            </div>
+            <form id="quizForm">
+                <h1>Q: <span class="quest">Quelle est la capitale de la Côte d'Ivoire?</span></h1>
+                <div class="allOption">
+                    <div class="option">
+                        <input type="radio" id="option1" value="1" name="quiz">
+                        <label for="option1"> Ici la question 1</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="option2" value="2" name="quiz">
+                        <label for="option2"> Ici la question 2</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="option3" value="3" name="quiz">
+                        <label for="option3"> Ici la question 3</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="option4" value="4" name="quiz">
+                        <label class="form-label" for="option4"> Ici la question 4</label>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn btn-success button" type="submit">Valider</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+
+
+
+    <script src="../public/js/script.js"></script>
+</body>
+</html>

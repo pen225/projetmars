@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.webSiteBg{
+    /* background: #6e00fd; */
+    background: url('../images/shutterstock_1447182212.webp') center;
+    min-height: 100vh;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    padding: 20px;
+    
+}
+
+.boite{
+    padding: 20px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    text-transform: capitalize;
+    width: auto !important;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.element{
+    /* background: rgba(255, 255, 255, 0.575); */
+    display: flex;
+    justify-content: center;
+}
+
+.boiteMsg h3{
+    font-size: 30px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    color: #6e00fd;
+    text-shadow: 1px 1px 4px rgb(154, 152, 152);
+}
+
+.bienvenue{
+    color: #6e00fd;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.boiteConnexion{
+    background-color: rgba(255, 255, 255, 0.90);
+    border-radius: 10px;
+    width: 400px !important;
+}
+.boiteConnexion h1{
+    color: #6e00fd;
+}
+
+.fa-solid{
+    position: absolute;
+    color: #6e00fd;
+    font-size: 25px;
+    margin: 10px;
+}
+.fa-arrow-left-long{
+    font-size: 16px;
+}
+.textCreatComte{
+    display: flex;
+}
+.textCreatComte a{
+    position: relative;
+    top: 4px;
+}
+/* .fa-user{
+    margin: 5px 10px;
+} */
+/* .fa-lock{
+    margin: 5px 10px;
+    margin-top: 16px;
+} */
+input{
+    padding-left: 40px !important;
+    outline-style: none;
+    height: 50px;
+    margin-bottom: 20px;
+    /* width: 400px !important; */
+}
+input[type="submit"] {
+    color: white;
+    background-color: #6e00fd;
+    /* margin-top: 20px; */
+}
+form div a{
+    text-decoration: none;
+}
+form div a:active{
+    color: #6e00fd;
+    font-weight: bold;
+}
+
+.champIvalide{
+    color: red;
+}

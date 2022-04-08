@@ -1,0 +1,147 @@
+/* #198754 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containQuiz{
+    width: 90%;
+    max-width: 600px;
+    min-height: 500px;
+    background-color: antiquewhite;
+    padding: 50px 30px 30px 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.containQuiz .menuScore{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+form h1{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+form .option{
+    font-size: 1.2rem;
+    margin: 10px 0px 0px 10px;
+    padding: 10px;
+    transition: 1s ease background-color;
+    border-radius: 4px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+
+form .option label{
+    margin-left: 10px;
+    justify-self: stretch;
+    width: 100%;
+    cursor: pointer;
+}
+
+form .option:hover{
+    background-color: blueviolet;
+}
+
+form .option input[type = "radio"]:checked + label {
+    color: skyblue;
+}
+#quizForm button{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.correctRep{
+    background-color: #198754;
+}
+
+.finish-btn, .next-btn{
+    width: 50% !important;
+    display: inline-block;
+    background-color: rgb(72, 72, 72);
+    color: white;
+}
+
+.finish-btn{
+    border-right: 1px solid white;
+}
+
+.next-btn{
+    border-right: 1px solid white;
+}
+
+/* .finish-btn{
+
+} */
+
+.afficheResult{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.resultatFinal{
+    font-size: 5rem;
+}
+
+body{
+    /* background: #6e00fd; */
+    background: url('../images/shutterstock_1447182212.webp') center;
+    /* height: 100vh; */
+}
+
+.userName{
+    /* height: 50px;
+    width: 50px;
+    border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: url('../images/man.svg');
+    background-size: contain;
+}
+
+form button{
+    position: relative;
+    /* top: 55px;
+    right: 30px; */
+}
+
+.btn-logout{
+    visibility: hidden;
+}
