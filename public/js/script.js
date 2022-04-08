@@ -19,7 +19,7 @@ logOut.addEventListener('mouseout', () =>{
 
 // -------------------- API
 
-const url = 'https://opentdb.com/api.php?amount=1';
+const url = 'https://opentdb.com/api.php?amount=10&category=18&difficulty=medium';
 const form = document.getElementById('quizForm')
 const container = document.querySelector('.containQuiz');
 const quizForm = document.querySelector('.quizForm');
